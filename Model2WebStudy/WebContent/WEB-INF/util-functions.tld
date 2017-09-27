@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<taglib xmlns="http://java.sun.com/xml/ns/j2ee" version="2.1">
+
+	<tlib-version>1.2</tlib-version>
+	
+	<function>
+		<name>decode</name>
+		<function-class>kr.or.kosta.shoppingmall.common.web.ELUtil</function-class>
+		<function-signature>java.lang.String decode(java.lang.String)</function-signature>
+	</function>
+
+</taglib>

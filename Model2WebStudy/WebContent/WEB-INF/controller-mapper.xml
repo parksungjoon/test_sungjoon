@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans>
+	<bean name="/hello" class="kr.or.kosta.shoppingmall.demo.controller.HelloController"/>
+	<bean name="/today" class="kr.or.kosta.shoppingmall.demo.controller.TodayController"/>
+	<!-- 홈페이지 세부컨트롤러 등록 -->
+	<bean name="/index" class="kr.or.kosta.shoppingmall.main.controller.MainController"/>
+	<!-- 회원 관련 세부컨트롤러 등록 -->
+	<bean name="/user/join" class="kr.or.kosta.shoppingmall.user.controller.UserJoinController"/>
+	<bean name="/user/certify" class="kr.or.kosta.shoppingmall.user.controller.UserCertifyController"/>
+	<bean name="/user/list" class="kr.or.kosta.shoppingmall.user.controller.UserListController"/>
+	<bean name="/user/read" class="kr.or.kosta.shoppingmall.user.controller.UserDetailController"/>	
+	<bean name="/user/delete" class="kr.or.kosta.shoppingmall.user.controller.UserDeleteController"/>	
+</beans>
